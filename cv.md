@@ -49,4 +49,4 @@ return iter(2);
 A1 :)
 
 ## Images
-![mememe](https://github.com/jakiJ/rsschool-cv/blob/gh-pages/pig1.PNG)
+![mememe](https://github.com/jakiJ/rsschool-cv/blob/gh-pages/pig1.PNGG)

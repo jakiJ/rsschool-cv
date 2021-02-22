@@ -42,3 +42,11 @@ const smallestDivisor = (num) => {
 return iter(2);
 };
 ```
+## Experience
+*Cooming soon*
+
+## English
+A1 :)
+
+## Images
+![mememe](https://github.com/jakiJ/rsschool-cv/blob/gh-pages/pig1.PNG)

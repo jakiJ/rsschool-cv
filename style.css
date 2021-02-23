@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .bird-tit {
+      height: 300px;
+      width: 320px;
+  }
+
+  .about-bird {
+      text-align: center;
+  }
+
+
+  p {
+      margin-bottom: 12px;
+  }
+
+  h1,
+  h2,
+  h3 {
+      font-weight: 400;
+      }
+
+  h1 {
+      font-size: 36px;
+      margin-bottom: 0px;
+      color: purple;
+  }
+
+  h2 {
+      font-size: 32px;
+      border-bottom: 1px solid #647;
+      margin-bottom: 8px;
+      color: green;
+  }
+
+  h3 {
+      font-size: 21px;
+      margin-bottom: 0px;
+  }
+
+  #header {
+      margin-bottom: 32px;
+      text-align: center;
+  }
+
+  #footer {
+      margin-top: 64px;
+      text-align: center;
+  }

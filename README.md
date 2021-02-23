@@ -1,1 +1,2 @@
-https://jakij.github.io/rsschool-cv/cv
+# rsschool-cv
+https://jakiJ.github.io/rsschool-cv/

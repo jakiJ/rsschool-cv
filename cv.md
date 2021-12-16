@@ -12,10 +12,10 @@
 > Hi, my name is Julia. I started my it-career three year ago as technical specialist. Now I feel and want to go forward. I think development is very interesting and difficult way. I want to go this way with The Rolling Scopes School. I want to rise my skill everyday.
 
 ## Skills
- * Study and improve: HTML | CSS | JS | Git | ..
+ * Study and improve: HTML , CSS , JS , Git , ...
  * Worckspace: VS Code
 
- ## Code examples
+## Code examples
  ```
 1.
 function isPalindrome(str) {
@@ -64,8 +64,9 @@ You can look my code here: https://github.com/jakiJ/jsbasic-20210906-2_julia7
 USE: Java Script, Git
 
 ## Language
-English - A2
-Russian - Native
+English - A2;
+
+Russian - Native;
 
 ## Images
 ![mememe](pig1.png)

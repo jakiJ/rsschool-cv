@@ -50,3 +50,10 @@ function enlargeArrayImage(items) {
   }, [])
 }
 ```
+
+## Experience
+
+> I have little experience in courses of Learn JS
+
+You can look my code here: https://github.com/jakiJ/jsbasic-20210906-2_julia7
+

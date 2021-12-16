@@ -51,9 +51,21 @@ function enlargeArrayImage(items) {
 }
 ```
 
+## Education
+
+1. Learn JS  - "Курс "JavaScript/DOM/Интерфейсы" для новичков"
+
 ## Experience
 
 > I have little experience in courses of Learn JS
 
 You can look my code here: https://github.com/jakiJ/jsbasic-20210906-2_julia7
 
+USE: Java Script, Git
+
+## Language
+English - A2
+Russian - Native
+
+## Images
+![mememe](pig1.png)

@@ -185,6 +185,48 @@ h2 {
     box-shadow: 10px 10px 0px #66DF1B;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     text-transform: none;
+}
+
+/*FIFTH SECTION*/
+
+.fifth_section {
+    padding: 2%;
+}
+
+
+.experience {
+    padding: 30px;
+    box-shadow: 10px 10px 0px #1B9BDF ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*FOOTER*/
+
+.footer {
+    margin: 0 10% 2%;
+    background: #F4F4F4;
+    box-shadow: 10px 10px 0px #DF30F4;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.footer_link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_footer {
+    width: 100px;
+    height: 60px;
+}
+
+.year {
+    font-size: 30px;
+    font-weight: 500;
 }

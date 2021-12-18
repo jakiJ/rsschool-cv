@@ -19,7 +19,7 @@
                 <li class="header_link"><a href="#summery">summery</a></li>
                 <li class="header_link"><a href="#skills">skills</a></li>
                 <li class="header_link"><a href="#languages">languages</a></li>
-                <li class="header_link"><a href="">code examples</a></li>
+                <li class="header_link"><a href="#examples">code examples</a></li>
                 <li class="header_link"><a href="">experience</a></li>
             </ul>
         </nav>
@@ -63,10 +63,10 @@
                 </div>
                 <div class="containet_two_bloks">
                     <div id="skill">
-                        <h2>skill</h2>
+                        <h2>skills</h2>
                         <ul class="main_style skills">
                             <li><b>Study and improve:</b> HTML , CSS , JS , Git , …</li>
-                            <li><b>Worckspace:</b> VS Code</li>
+                            <li><b>Workspace:</b> VS Code</li>
                         </ul>
                     </div>
                     <div id="languages">
@@ -76,6 +76,41 @@
                             <li>Russian - Native;</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="fouth_section">
+            <h2 id="examples">code examples</h2>
+            <div class="main_style examples">
+                <div class="code">
+                    <pre>
+1.
+
+function isPalindrome(str) {
+     if (str.length < 2) return true;
+     if (str[0] !== str[str.length - 1]) {
+        return false;
+     }
+     return isPalindrome(str.substring(1, str.length - 1))
+ }
+                    </pre>
+                </div>
+                <div class="code">
+                    <pre>
+2.
+
+function enlargeArrayImage(items) {
+    return items.map(item => {
+      return item.reduce((acc, smbl) => {
+          acc = [...acc, ...[smbl, smbl]];
+          return acc;
+     }, [])
+     }).reduce((acc, item) => {
+        acc = [...acc, item, item]
+          return acc;
+    }, [])
+}
+                    </pre>
                 </div>
             </div>
         </section>

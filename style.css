@@ -33,7 +33,7 @@ h3 {
 /*HEADER*/
 
 .header {
-    margin: 0 10%;
+    margin: 2% 10%;
     background: #F4F4F4;
     box-shadow: 10px 10px 0px #ff0000;
     border-radius: 40px;
@@ -41,9 +41,8 @@ h3 {
 
 .list_link {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 10%;
+    justify-content: space-around;
     padding: 20px;
     margin-top: 1%;
 }
@@ -53,5 +52,44 @@ h3 {
 }
 
 .header_link:hover {
-    font-weight: 900;
+    font-weight: 700;
+}
+
+/*MAIN*/
+
+main {
+    margin: 0 10% 2%;
+    background: #F4F4F4;
+    box-shadow: 10px 10px 0px #FFE975;
+    border-radius: 40px;
+
+}
+
+/*FIRST SECTION*/
+
+.first_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.name {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     line-height: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    box-shadow: 10px 10px 0px #928CF8;
+    border-radius: 40px;
+    max-width: 300px;
+    max-height: 300px;
 }

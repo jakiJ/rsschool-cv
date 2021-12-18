@@ -87,9 +87,41 @@ h1 {
     font-size: 40px;
 }
 
-img {
+.my_image {
     box-shadow: 10px 10px 0px #928CF8;
     border-radius: 40px;
     max-width: 300px;
     max-height: 300px;
+}
+
+/*SECOND SECTION*/
+
+.second_section {
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+}
+
+.contact_links {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 0px #3DC39B;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.contact_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

@@ -57,12 +57,22 @@ h3 {
 
 /*MAIN*/
 
+
+
 main {
     margin: 0 10% 2%;
     background: #F4F4F4;
     box-shadow: 10px 10px 0px #FFE975;
     border-radius: 40px;
 
+    text-transform: uppercase;
+
+}
+
+.main_style {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 40px;
 }
 
 /*FIRST SECTION*/
@@ -75,7 +85,6 @@ main {
 }
 
 .name {
-    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +107,6 @@ h1 {
 
 .second_section {
     padding: 2%;
-    text-transform: uppercase;
 }
 
 h2 {
@@ -108,11 +116,7 @@ h2 {
 }
 
 .contact_links {
-    background-color: #FFFFFF;
-    border: 1px solid #000000;
     box-shadow: 10px 10px 0px #3DC39B;
-    border-radius: 40px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -124,4 +128,48 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+/*THIRD SECTION*/
+
+.third_section {
+    padding: 2%;
+}
+
+.container_third {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.containet_two_bloks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.summery {
+    padding: 30px;
+    box-shadow: 10px 10px 0px #3141E3;
+    text-transform: none;
+    letter-spacing: 2px;
+}
+
+.skills {
+    padding: 30px;
+    box-shadow: 10px 10px 0px #FF5733;
+    white-space: nowrap;
+}
+
+#languages {
+    width: 100%;
+    padding-top: 30px;
+}
+.languages {
+    padding: 30px;
+    box-shadow: 10px 10px 0px #8430E8;
+    white-space: nowrap;
 }

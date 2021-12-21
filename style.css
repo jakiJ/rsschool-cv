@@ -196,6 +196,22 @@ h2 {
     padding: 2%;
 }
 
+.education {
+    padding: 30px;
+    box-shadow: 10px 10px 0px #F430B9;
+}
+
+/* .school_year,
+.school_course {
+    text-transform: none;
+} */
+
+
+/*SIXTH SECTION*/
+.sixth_section {
+    padding: 2%;
+}
+
 
 .experience {
     padding: 30px;

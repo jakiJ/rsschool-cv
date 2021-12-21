@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Aminova_Julia</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel='stylesheet' href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="list_link">
+                <li class="header_link"><a href="#contacts">contacts</a></li>
+                <li class="header_link"><a href="#summery">summary</a></li>
+                <li class="header_link"><a href="#skills">skills</a></li>
+                <li class="header_link"><a href="#languages">languages</a></li>
+                <li class="header_link"><a href="#examples">code examples</a></li>
+                <li class="header_link"><a href="#experience">experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="first_section">
+            <div class="name">
+                <h1>aminova julia</h1>
+                <p>Junior front-end developer</p>
+            </div>
+            <div class="img_conteiner">
+                <img class="my_image" src="./img/pig1.png" alt="mememe">
+            </div>
+        </section>
+        <section class="second_section">
+            <h2 id="contats">contacts</h2>
+            <ul class="contact_links main_style">
+                <li class="contact_link">
+                    <img src="./img/phone.png" alt="phone">
+                    <p href="">+79827827084</p>
+                </li>
+                <li class="contact_link">
+                    <img src="./img/telegram.png" alt="telegram">
+                    <a href=" https://t.me/jaki_j" target="_blank">jaki_j</a>
+                </li>
+                <li class="contact_link">
+                    <img src="./img/github.png" alt="github">
+                    <a href="https://github.com/jakiJ">jakiJ</a>
+                </li>
+            </ul>
+        </section>
+        <section class="third_section">
+            <div class="container_third">
+                <div id="summery">
+                    <h2>summary</h2>
+                    <p class="main_style summery">
+                        Hi, my name is Julia. I started my it-career three years ago as a technical specialist.
+                        Now I feel like i want to go forward. I think development is a very interesting and difficult way to do this.
+                        I want to go this way with The Rolling Scopes School. I want to improve my skills each day.
+                    </p>
+                </div>
+                <div class="containet_two_bloks">
+                    <div id="skill">
+                        <h2>skills</h2>
+                        <ul class="main_style skills">
+                            <li><b>Study and improve:</b> HTML , CSS , JS , Git , …</li>
+                            <li><b>Workspace:</b> VS Code</li>
+                        </ul>
+                    </div>
+                    <div id="languages">
+                        <h2>languages</h2>
+                        <ul class="main_style languages">
+                            <li>English - A2;</li>
+                            <li>Russian - Native;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fouth_section">
+            <h2 id="examples">code examples</h2>
+            <div class="main_style examples">
+                <div class="code">
+                    <pre>
+1.
+
+function isPalindrome(str) {
+     if (str.length < 2) return true;
+     if (str[0] !== str[str.length - 1]) {
+        return false;
+     }
+     return isPalindrome(str.substring(1, str.length - 1))
+ }
+                    </pre>
+                </div>
+                <div class="code">
+                    <pre>
+2.
+
+function enlargeArrayImage(items) {
+    return items.map(item => {
+      return item.reduce((acc, smbl) => {
+          acc = [...acc, ...[smbl, smbl]];
+          return acc;
+     }, [])
+     }).reduce((acc, item) => {
+        acc = [...acc, item, item]
+          return acc;
+    }, [])
+}
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section class="fifth_section">
+            <h2 id="experience">experience</h2>
+            <div class="experience main_style">
+                <div class="project">
+                    <h3>online-zoo</h3>
+                    <a href="https://jakij.github.io/projects/online-zoo/index.html" target="_blank">
+                        <img src="./img/online_zoo.png" alt="online zoo" class="project-img">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>photo filter</h3>
+                    <a href="https://jakij.github.io/projects/photo-filter/index.html" target="_blank">
+                        <img src="./img/photo_filter.png" alt="photo filter" class="project-img">
+                    </a>
+                </div>
+                <div class="project">
+                    <h3>virtual piano</h3>
+                    <a href="https://jakij.github.io/projects/virtual-pianino/index.html" target="_blank">
+                        <img src="./img/piano.png" alt="virtual pianino" class="project-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <nav>
+            <ul class="footer_link">
+                <li class="year">2021</li>
+                <li>
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img src="./img/rs_school_js.svg" alt="RSS" class="img_footer">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/jakiJ" target="_blank">
+                        <!-- <img src="./img/github.png" alt="RSS" class="img_footer"> -->
+                        <img src="https://img.icons8.com/ios/50/000000/github--v2.png"/>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -217,8 +217,9 @@ h2 {
     padding: 30px;
     box-shadow: 10px 10px 0px #1B9BDF ;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -227,7 +228,8 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 15px;
+    margin: 20px;
+    width: 25%;
 }
 
 .project-img {
@@ -260,4 +262,70 @@ h2 {
 .year {
     font-size: 30px;
     font-weight: 500;
+}
+
+
+@media (max-width: 1000px) {
+    .container_third {
+        flex-direction: column;
+    }
+    .list_link {
+        flex-wrap: wrap;
+    }
+    .header_link {
+        font-size: 10px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    h1 {
+        line-height: 40px;
+    }
+    h2 {
+        margin-top: 10px;
+    }
+    .education {
+        font-size: 12px;
+    }
+    .first_section{
+        flex-direction: column;
+    }
+    .img_conteiner {
+        margin: 10px;
+    }
+    .my_image {
+        width: 100%;
+    }
+    .examples {
+        padding: 10px;
+    }
+    pre {
+        font-size: 12px;
+    }
+    .skills {
+        white-space: inherit;
+    }
+    .contact_links {
+        flex-direction: column;
+    }
+    .contact_link {
+        margin: 10px;
+    }
+    .project {
+        width: 100%;
+    }
+    .footer_link {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 590px) {
+
+    pre {
+        font-size: 6px;
+    }
 }
